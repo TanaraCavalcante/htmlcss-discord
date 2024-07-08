@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
 .container{
@@ -18,11 +19,26 @@
     border: 2px dashed;
 }
 
+h1{
+    padding: 20px;
+}
+
+.button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+
 /*--Intestazione--*/
   header{
     margin-bottom: 30px;
-    background-color: lightblue;
-  }
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
 
     /*-Small header-*/
 
@@ -32,33 +48,64 @@
 
     header > nav > div {
         flex-basis: 20%;
-        background-color: white;
         padding: 10px 0;
     }
 
 
     .nav-bar{
+        display: flex;
         padding: 10px;
         flex-basis: 60%;
         text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        
     }
-
+    
     .nav-buttom{
         text-align: right;
     }
- 
+
+    .nav-buttom > button{
+        font-size: 14px;
+        background-color: white;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+    }
+
 
    /*-Large header-*/
-.header-bottom{
-    background-color: rgb(38, 105, 212);
+   .header-bottom{
     height: 500px;
-    padding: 50px;   
-}
+    text-align: center;
+    padding: 60px;
+   }
 
-.header-bottom div{
-    height: 90%;
-    background-color: rgb(222, 243, 119);  
-}
+
+  .header-bottom div{
+    height: 90%; 
+  }
+
+  .title-header{
+    font-size: 60px;
+  }
+
+  .text-header{
+    font-size: 20px;
+    padding: 0 250px;
+    padding-bottom:20px; 
+  }
+
+  .white{
+    background-color: white;
+  }
+
+  .black{
+    background-color: black;
+    color: white;
+ }
 
 
 /*----Corpo del sito----*/
