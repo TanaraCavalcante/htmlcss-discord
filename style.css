@@ -110,10 +110,11 @@ footer{
 }
 
 /* Top */
-.top-f{
+.top-footer{
     display: flex;
-    height: 80%;
-    margin-bottom: 2px solid white;
+    height: 90%;
+    border-bottom: 3px solid rgb(112, 26, 26);
+    
 }
 
 .left-f {
@@ -139,7 +140,17 @@ footer{
 /* Bottom */
 .bottom-footer{
     display: flex;
-    height: 20%;
+    height: 10%;
+    justify-content: space-between; 
     background-color: aquamarine;
-    
+}
+
+.bottom-footer > *{
+    background-color: rgb(193, 255, 127);
+    align-self: center;
+        
+}
+
+.bottom-footer :last-child{
+    text-align: right;
 }
