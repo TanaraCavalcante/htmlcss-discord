@@ -12,7 +12,7 @@
 
 
 .back-gray{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.696);
 }
 
 .border{
@@ -37,6 +37,9 @@
     background-image: url(img/jumbo.png);
     background-size: cover;
     color: white;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 
     /*-Small header-*/
@@ -77,15 +80,11 @@
 
    /*-Large header-*/
    .header-bottom{
+    justify-items: center;
     height: 500px;
-    text-align: center;
-    padding: 60px;
+    
    }
 
-
-  .header-bottom div{
-    height: 90%; 
-  }
 
   .title-header{
     font-size: 60px;
@@ -149,6 +148,7 @@
     padding-right: 5px;
 }
 
+   
 
 /*--- Section - 4--*/
 
